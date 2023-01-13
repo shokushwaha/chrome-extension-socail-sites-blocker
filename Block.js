@@ -276,6 +276,14 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("Whatsapp");
     break;
+  case "www.twitter.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("TWITTER");
+    break;
+  case "www.reddit.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("REDDIT");
+    break;
   case "www.netflix.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("NETFLIX");
