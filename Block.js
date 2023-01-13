@@ -260,20 +260,44 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("FACEBOOK");
     break;
-  case "www.netflix.com":
-    document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("NETFLIX");
-    break;
   case "www.instagram.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("INSTAGRAM");
     break;
-  case "discord.com":
+  case "www.discord.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("DISCORD");
+    break;
+  case "www.telegram.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("TELEGRAM");
+    break;
+  case "www.whatsapp.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("Whatsapp");
+    break;
+  case "www.netflix.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("NETFLIX");
     break;
   case "www.amazon.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("AMAZON PRIME");
+    break;
+  case "www.mxplayer.in":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("MX PLAYER");
+    break;
+  case "www.hotstar.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("HOTSTAR");
+    break;
+  case "www.zee5.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("ZEE5");
+    break;
+  case "www.sonyliv.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("SONY LIV");
     break;
 }
